@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50DE8123234E482474762A7F /* Pods_TextFetcher_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECEB37AAF5AC6107CC39D0A3 /* Pods_TextFetcher_SampleApp.framework */; };
+		D640233224CCD88A005A258F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640233124CCD88A005A258F /* AppDelegate.swift */; };
+		D640233424CCD88A005A258F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640233324CCD88A005A258F /* ViewController.swift */; };
+		D640233624CCD88E005A258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D640233524CCD88E005A258F /* Assets.xcassets */; };
+		D640233924CCD88E005A258F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D640233724CCD88E005A258F /* Main.storyboard */; };
+		D6DBC4CC24D5C13200FBCADC /* Text2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4C824D5C13100FBCADC /* Text2.txt */; };
+		D6DBC4CD24D5C13200FBCADC /* Text3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4C924D5C13100FBCADC /* Text3.txt */; };
+		D6DBC4CE24D5C13200FBCADC /* TextVersions.json in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4CA24D5C13100FBCADC /* TextVersions.json */; };
+		D6DBC4CF24D5C13200FBCADC /* Text1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4CB24D5C13200FBCADC /* Text1.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7729BA2CAD782F905477C92E /* Pods-TextFetcher-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFetcher-SampleApp.release.xcconfig"; path = "Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		972934D947354F7CEFBA16BD /* Pods-TextFetcher-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextFetcher-SampleApp.debug.xcconfig"; path = "Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D640232E24CCD88A005A258F /* TextFetcher Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TextFetcher Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D640233124CCD88A005A258F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D640233324CCD88A005A258F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D640233524CCD88E005A258F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D640233824CCD88E005A258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D640233A24CCD88E005A258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D640233B24CCD88E005A258F /* TextFetcher_SampleApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TextFetcher_SampleApp.entitlements; sourceTree = "<group>"; };
+		D6DBC4C824D5C13100FBCADC /* Text2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Text2.txt; sourceTree = "<group>"; };
+		D6DBC4C924D5C13100FBCADC /* Text3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Text3.txt; sourceTree = "<group>"; };
+		D6DBC4CA24D5C13100FBCADC /* TextVersions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TextVersions.json; sourceTree = "<group>"; };
+		D6DBC4CB24D5C13200FBCADC /* Text1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Text1.txt; sourceTree = "<group>"; };
+		ECEB37AAF5AC6107CC39D0A3 /* Pods_TextFetcher_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFetcher_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D640232B24CCD88A005A258F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50DE8123234E482474762A7F /* Pods_TextFetcher_SampleApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173DECBB7971481DBA7F0559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECEB37AAF5AC6107CC39D0A3 /* Pods_TextFetcher_SampleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D10F2BAC249B417E693C6562 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				972934D947354F7CEFBA16BD /* Pods-TextFetcher-SampleApp.debug.xcconfig */,
+				7729BA2CAD782F905477C92E /* Pods-TextFetcher-SampleApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D640232524CCD88A005A258F = {
+			isa = PBXGroup;
+			children = (
+				D640233024CCD88A005A258F /* TextFetcher-SampleApp */,
+				D640232F24CCD88A005A258F /* Products */,
+				D10F2BAC249B417E693C6562 /* Pods */,
+				173DECBB7971481DBA7F0559 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D640232F24CCD88A005A258F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D640232E24CCD88A005A258F /* TextFetcher Sample App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D640233024CCD88A005A258F /* TextFetcher-SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				D640233124CCD88A005A258F /* AppDelegate.swift */,
+				D640233324CCD88A005A258F /* ViewController.swift */,
+				D6DBC4C724D5C12000FBCADC /* Resources */,
+				D640233A24CCD88E005A258F /* Info.plist */,
+				D640233B24CCD88E005A258F /* TextFetcher_SampleApp.entitlements */,
+			);
+			path = "TextFetcher-SampleApp";
+			sourceTree = "<group>";
+		};
+		D6DBC4C724D5C12000FBCADC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6DBC4D024D5C13700FBCADC /* TextFetcher Resources */,
+				D640233724CCD88E005A258F /* Main.storyboard */,
+				D640233524CCD88E005A258F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6DBC4D024D5C13700FBCADC /* TextFetcher Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6DBC4CB24D5C13200FBCADC /* Text1.txt */,
+				D6DBC4C824D5C13100FBCADC /* Text2.txt */,
+				D6DBC4C924D5C13100FBCADC /* Text3.txt */,
+				D6DBC4CA24D5C13100FBCADC /* TextVersions.json */,
+			);
+			path = "TextFetcher Resources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D640232D24CCD88A005A258F /* TextFetcher-SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D640233E24CCD88E005A258F /* Build configuration list for PBXNativeTarget "TextFetcher-SampleApp" */;
+			buildPhases = (
+				E7BB07E2E2335F9E33C333D4 /* [CP] Check Pods Manifest.lock */,
+				D640232A24CCD88A005A258F /* Sources */,
+				D640232B24CCD88A005A258F /* Frameworks */,
+				D640232C24CCD88A005A258F /* Resources */,
+				8173EB1669FF318536869B4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TextFetcher-SampleApp";
+			productName = "TextFetcher-SampleApp";
+			productReference = D640232E24CCD88A005A258F /* TextFetcher Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D640232624CCD88A005A258F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "MRE Digital, llc";
+				TargetAttributes = {
+					D640232D24CCD88A005A258F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D640232924CCD88A005A258F /* Build configuration list for PBXProject "TextFetcher-SampleApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D640232524CCD88A005A258F;
+			productRefGroup = D640232F24CCD88A005A258F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D640232D24CCD88A005A258F /* TextFetcher-SampleApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D640232C24CCD88A005A258F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DBC4CC24D5C13200FBCADC /* Text2.txt in Resources */,
+				D640233624CCD88E005A258F /* Assets.xcassets in Resources */,
+				D6DBC4CE24D5C13200FBCADC /* TextVersions.json in Resources */,
+				D6DBC4CF24D5C13200FBCADC /* Text1.txt in Resources */,
+				D640233924CCD88E005A258F /* Main.storyboard in Resources */,
+				D6DBC4CD24D5C13200FBCADC /* Text3.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8173EB1669FF318536869B4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BB07E2E2335F9E33C333D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextFetcher-SampleApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D640232A24CCD88A005A258F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D640233424CCD88A005A258F /* ViewController.swift in Sources */,
+				D640233224CCD88A005A258F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D640233724CCD88E005A258F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D640233824CCD88E005A258F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D640233C24CCD88E005A258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D640233D24CCD88E005A258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D640233F24CCD88E005A258F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 972934D947354F7CEFBA16BD /* Pods-TextFetcher-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TextFetcher-SampleApp/TextFetcher_SampleApp.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2AEX5V64Z7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "TextFetcher-SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.mre.TextFetcher-SampleApp";
+				PRODUCT_NAME = "TextFetcher Sample App";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D640234024CCD88E005A258F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7729BA2CAD782F905477C92E /* Pods-TextFetcher-SampleApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TextFetcher-SampleApp/TextFetcher_SampleApp.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2AEX5V64Z7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "TextFetcher-SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "digital.mre.TextFetcher-SampleApp";
+				PRODUCT_NAME = "TextFetcher Sample App";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D640232924CCD88A005A258F /* Build configuration list for PBXProject "TextFetcher-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D640233C24CCD88E005A258F /* Debug */,
+				D640233D24CCD88E005A258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D640233E24CCD88E005A258F /* Build configuration list for PBXNativeTarget "TextFetcher-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D640233F24CCD88E005A258F /* Debug */,
+				D640234024CCD88E005A258F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D640232624CCD88A005A258F /* Project object */;
+}

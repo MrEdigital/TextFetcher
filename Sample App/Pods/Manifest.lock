@@ -1,0 +1,16 @@
+PODS:
+  - TextFetcher (1.0.0)
+
+DEPENDENCIES:
+  - TextFetcher (from `../`)
+
+EXTERNAL SOURCES:
+  TextFetcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TextFetcher: 864fa161c375f2b332c03b00edd8b0b7e4ec9c25
+
+PODFILE CHECKSUM: 54d784ea43fbd8bd13a9353a8e1c70f5a43975b1
+
+COCOAPODS: 1.9.1

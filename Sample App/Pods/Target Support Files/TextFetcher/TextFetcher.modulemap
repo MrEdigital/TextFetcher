@@ -1,0 +1,6 @@
+framework module TextFetcher {
+  umbrella header "TextFetcher-umbrella.h"
+
+  export *
+  module * { export * }
+}

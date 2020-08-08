@@ -1,0 +1,788 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C98B31CB38BF17728D21122605A0227 /* Pods-TextFetcher-SampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9CE93566360A9E29FBC0B0A0ABE08 /* Pods-TextFetcher-SampleApp-dummy.m */; };
+		0E39181C75426C5C8DDF730425C7FAB6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		130FFB39766D5F45B4008563704F0CF0 /* RemoteFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D161C9AB8A8BF59701F2C5B063A33D30 /* RemoteFile.swift */; };
+		1CEE3F4417385DFD5B541BB3C3D332A9 /* VersionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C6D9065B6F18D2D24E87AF1DB0E9A2 /* VersionManager.swift */; };
+		28AB2A57A2B266B2868E3EBD65BB6253 /* CachedResourceInterfacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A213A690DC898330D8F82A7B5CC3CA92 /* CachedResourceInterfacer.swift */; };
+		2DCE7396EA0E4D7998AF2BC3B3D36E8F /* ResourceID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F5B31F7A6A76492BDA5E1D525588C6 /* ResourceID.swift */; };
+		3085B44C03C995ED0D9A24A743FF466B /* BundledResourceInterfacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9FEC0D7E1223A09DACF03CCA0B27BC /* BundledResourceInterfacer.swift */; };
+		3D7D3195E4969BEA50CC44DC2D3023BA /* TextSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB77C027FC8A54354E7501082FC6CCB /* TextSource.swift */; };
+		41165E183C6C1694C11166FD5BBF03C8 /* TextFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400358E7364549A7FFB7D7DDFC1BE813 /* TextFetcher.swift */; };
+		5645A86FEBBFD4EDA80E0B52C2B89CEB /* RemoteResourceInterfacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B8A25512625468DFC5B3ADDB5A7FEA /* RemoteResourceInterfacer.swift */; };
+		5BEB2116038CD8E8BBECBD31BF584294 /* TextFetcher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8681D674356168368A56CD9061397CC0 /* TextFetcher-dummy.m */; };
+		687509367AEEB3AC115265831BA62376 /* LocationSplitVersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865C8775D3628D716BEF813389C15631 /* LocationSplitVersionStore.swift */; };
+		750BD5F43D6E7457787DB81A09A534D0 /* TextFetcher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E851B3AA17C8689C8E9C11063B8188 /* TextFetcher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7864D706DDC1452DE75F4F2063980579 /* TextManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C66C09660B73A7E4B0F938278CE3107 /* TextManager.swift */; };
+		84391EA801ED42CCAA068125A4A40637 /* VersionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC61A457DE9DAE745579BF10552D0B4A /* VersionStore.swift */; };
+		8A84E6206302055503B0E77D9FBF2ED9 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498250A4AE91E3687BF68CF6BA8AE071 /* Version.swift */; };
+		974BCB5FA0EF77EA43952A4F383E20A1 /* ResourceLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 922176FA3690F554C0CB731AF3FBB9C0 /* ResourceLocation.swift */; };
+		AAF8FFAF17D2DFA3DB79362306213BD9 /* VersionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A45A4A8745C48E63B740A2830761FE /* VersionSource.swift */; };
+		C3F3D15BAEF42DB15328715E445E4C8F /* LocationBoundVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91CF3174A9C85B68E29CE3DC96FDB89 /* LocationBoundVersion.swift */; };
+		C428596BFCB9CE100E66CEAC96422FA0 /* UMLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83334FB08DEF0FB8FE0231FDBC12F34B /* UMLs.swift */; };
+		CCA88A4F5FAA304B2ED0B388720CD6F5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */; };
+		D5AEAE1EE9A35B280B5ED2CE19178602 /* TextFetcherNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3526F213407390BB22A47985F516F025 /* TextFetcherNotificationManager.swift */; };
+		E9FCE84D91D941F90DA49F9057B61D86 /* BundleFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A67508F2455F327D5C1FF6329E8AD /* BundleFile.swift */; };
+		F3D3E8623C693D44741D1666E83A9F51 /* Pods-TextFetcher-SampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB5809E853312A9C50ED1DC74F505A3 /* Pods-TextFetcher-SampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F67F3B05D33F00B88C4533DBBE451A35 /* ResourceInterfacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E8903C8D4BAD9A53F447C00AB21509 /* ResourceInterfacing.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BD7FF603C9F8611E4C6EB006E61C27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28F3E221CBF5DEDA52C8419704B27041;
+			remoteInfo = TextFetcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DB0138FD954B5128B9875288F11B4BA /* Pods-TextFetcher-SampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextFetcher-SampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		18D9CE93566360A9E29FBC0B0A0ABE08 /* Pods-TextFetcher-SampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextFetcher-SampleApp-dummy.m"; sourceTree = "<group>"; };
+		1BB5809E853312A9C50ED1DC74F505A3 /* Pods-TextFetcher-SampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextFetcher-SampleApp-umbrella.h"; sourceTree = "<group>"; };
+		1DE6347DCF844FE222163F340A83E9BA /* TextFetcher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TextFetcher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9FEC0D7E1223A09DACF03CCA0B27BC /* BundledResourceInterfacer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundledResourceInterfacer.swift; sourceTree = "<group>"; };
+		2304D9C60509DA372E2BCE2044DC0D13 /* TextFetcher-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TextFetcher-Info.plist"; sourceTree = "<group>"; };
+		23CD17A6F3CA21EF60B3A055E20B9B07 /* Pods-TextFetcher-SampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextFetcher-SampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		2FC6E7CFD164483D97A889DB745A7F40 /* TextFetcher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFetcher-prefix.pch"; sourceTree = "<group>"; };
+		3526F213407390BB22A47985F516F025 /* TextFetcherNotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextFetcherNotificationManager.swift; sourceTree = "<group>"; };
+		400358E7364549A7FFB7D7DDFC1BE813 /* TextFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextFetcher.swift; sourceTree = "<group>"; };
+		44180936195DC892899120B8FFB4631D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		44A45A4A8745C48E63B740A2830761FE /* VersionSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VersionSource.swift; sourceTree = "<group>"; };
+		498250A4AE91E3687BF68CF6BA8AE071 /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		51B8A25512625468DFC5B3ADDB5A7FEA /* RemoteResourceInterfacer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteResourceInterfacer.swift; sourceTree = "<group>"; };
+		57C6D9065B6F18D2D24E87AF1DB0E9A2 /* VersionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VersionManager.swift; sourceTree = "<group>"; };
+		65F5B31F7A6A76492BDA5E1D525588C6 /* ResourceID.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceID.swift; sourceTree = "<group>"; };
+		6B36486BCA51E4CF483A3F447250315B /* Pods-TextFetcher-SampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextFetcher-SampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B8A67508F2455F327D5C1FF6329E8AD /* BundleFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundleFile.swift; sourceTree = "<group>"; };
+		6CB041122704ED50F3EDF07F29154110 /* Pods_TextFetcher_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextFetcher_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB77C027FC8A54354E7501082FC6CCB /* TextSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextSource.swift; sourceTree = "<group>"; };
+		77A0FAA70E1F03B8DA534CAEA38E9066 /* Pods-TextFetcher-SampleApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextFetcher-SampleApp-frameworks.sh"; sourceTree = "<group>"; };
+		80E3BAFF29FEF20C975C5919D8B093B1 /* TextFetcher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TextFetcher.modulemap; sourceTree = "<group>"; };
+		83334FB08DEF0FB8FE0231FDBC12F34B /* UMLs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UMLs.swift; sourceTree = "<group>"; };
+		865C8775D3628D716BEF813389C15631 /* LocationSplitVersionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationSplitVersionStore.swift; sourceTree = "<group>"; };
+		8681D674356168368A56CD9061397CC0 /* TextFetcher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TextFetcher-dummy.m"; sourceTree = "<group>"; };
+		922176FA3690F554C0CB731AF3FBB9C0 /* ResourceLocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceLocation.swift; sourceTree = "<group>"; };
+		9C66C09660B73A7E4B0F938278CE3107 /* TextManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextManager.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A213A690DC898330D8F82A7B5CC3CA92 /* CachedResourceInterfacer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CachedResourceInterfacer.swift; sourceTree = "<group>"; };
+		A6A6A0042344CE14C1FFEF8346F038AA /* Pods-TextFetcher-SampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextFetcher-SampleApp-Info.plist"; sourceTree = "<group>"; };
+		AAD28125D60BB468A5BBC28F0090F37F /* Pods-TextFetcher-SampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextFetcher-SampleApp.modulemap"; sourceTree = "<group>"; };
+		B6892C34427B6763DB0E524F04F7F191 /* TextFetcher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFetcher.debug.xcconfig; sourceTree = "<group>"; };
+		B6AFBCF2E12652D9CECE7F1FD05F5DAE /* TextFetcher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TextFetcher.release.xcconfig; sourceTree = "<group>"; };
+		C43DF8D38302EFA77BD8FDB497660517 /* Pods-TextFetcher-SampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextFetcher-SampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D161C9AB8A8BF59701F2C5B063A33D30 /* RemoteFile.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RemoteFile.swift; sourceTree = "<group>"; };
+		D6E851B3AA17C8689C8E9C11063B8188 /* TextFetcher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TextFetcher-umbrella.h"; sourceTree = "<group>"; };
+		E91CF3174A9C85B68E29CE3DC96FDB89 /* LocationBoundVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LocationBoundVersion.swift; sourceTree = "<group>"; };
+		EAEF769B905CDD0008BC3C2BF02A683A /* TextFetcher.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = TextFetcher.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F0E8903C8D4BAD9A53F447C00AB21509 /* ResourceInterfacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ResourceInterfacing.swift; sourceTree = "<group>"; };
+		F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		FC61A457DE9DAE745579BF10552D0B4A /* VersionStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VersionStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42B94EC6949EBAF65EA9B9224F2E3B7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E39181C75426C5C8DDF730425C7FAB6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C56612F1D477C3F530795F98526571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA88A4F5FAA304B2ED0B388720CD6F5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00323B1BF5FDA4388AA91B2F88930998 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CB041122704ED50F3EDF07F29154110 /* Pods_TextFetcher_SampleApp.framework */,
+				1DE6347DCF844FE222163F340A83E9BA /* TextFetcher.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11C1ADBCD2E3F8E5ACE38926A945AA98 /* Primary Class */ = {
+			isa = PBXGroup;
+			children = (
+				400358E7364549A7FFB7D7DDFC1BE813 /* TextFetcher.swift */,
+			);
+			name = "Primary Class";
+			path = "TextFetcher/Primary Class";
+			sourceTree = "<group>";
+		};
+		2C96C61BB3204DD3BA721CEE3E9742BE /* Versions */ = {
+			isa = PBXGroup;
+			children = (
+				E91CF3174A9C85B68E29CE3DC96FDB89 /* LocationBoundVersion.swift */,
+				498250A4AE91E3687BF68CF6BA8AE071 /* Version.swift */,
+			);
+			path = Versions;
+			sourceTree = "<group>";
+		};
+		60B6F42210441685D46E0298A47F7964 /* TextFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				F714215F5D2395C8085B379BAA61D594 /* Data Models */,
+				F8512083E409D9DA94579B6A2CA92D30 /* Notifications */,
+				7A577AF633EE30E8EB80020AE5F69F7A /* Pod */,
+				11C1ADBCD2E3F8E5ACE38926A945AA98 /* Primary Class */,
+				EDC47F1403EDC8D4B56BCB2C60389E80 /* Reference */,
+				D2E392D1BAEB3AB32BA2FA5281620F86 /* Resource Interfacing */,
+				95BCC42B4D151D80777B7319863186BE /* Resource Management */,
+				E4578820AAB89B074240F9649086E2C6 /* Support Files */,
+			);
+			name = TextFetcher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7870CECDE6C5BA4C07973FDFAE9B3388 /* Resource Information */ = {
+			isa = PBXGroup;
+			children = (
+				65F5B31F7A6A76492BDA5E1D525588C6 /* ResourceID.swift */,
+				922176FA3690F554C0CB731AF3FBB9C0 /* ResourceLocation.swift */,
+			);
+			path = "Resource Information";
+			sourceTree = "<group>";
+		};
+		7A577AF633EE30E8EB80020AE5F69F7A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				44180936195DC892899120B8FFB4631D /* LICENSE */,
+				EAEF769B905CDD0008BC3C2BF02A683A /* TextFetcher.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D0A5CBD5B6B4F81DF33CD350CB26224 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1CCBF61FB6DC5D2F16FC5ED73ABAB2B /* Pods-TextFetcher-SampleApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		95BCC42B4D151D80777B7319863186BE /* Resource Management */ = {
+			isa = PBXGroup;
+			children = (
+				9C66C09660B73A7E4B0F938278CE3107 /* TextManager.swift */,
+				57C6D9065B6F18D2D24E87AF1DB0E9A2 /* VersionManager.swift */,
+			);
+			name = "Resource Management";
+			path = "TextFetcher/Resource Management";
+			sourceTree = "<group>";
+		};
+		A1CCBF61FB6DC5D2F16FC5ED73ABAB2B /* Pods-TextFetcher-SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				AAD28125D60BB468A5BBC28F0090F37F /* Pods-TextFetcher-SampleApp.modulemap */,
+				0DB0138FD954B5128B9875288F11B4BA /* Pods-TextFetcher-SampleApp-acknowledgements.markdown */,
+				6B36486BCA51E4CF483A3F447250315B /* Pods-TextFetcher-SampleApp-acknowledgements.plist */,
+				18D9CE93566360A9E29FBC0B0A0ABE08 /* Pods-TextFetcher-SampleApp-dummy.m */,
+				77A0FAA70E1F03B8DA534CAEA38E9066 /* Pods-TextFetcher-SampleApp-frameworks.sh */,
+				A6A6A0042344CE14C1FFEF8346F038AA /* Pods-TextFetcher-SampleApp-Info.plist */,
+				1BB5809E853312A9C50ED1DC74F505A3 /* Pods-TextFetcher-SampleApp-umbrella.h */,
+				C43DF8D38302EFA77BD8FDB497660517 /* Pods-TextFetcher-SampleApp.debug.xcconfig */,
+				23CD17A6F3CA21EF60B3A055E20B9B07 /* Pods-TextFetcher-SampleApp.release.xcconfig */,
+			);
+			name = "Pods-TextFetcher-SampleApp";
+			path = "Target Support Files/Pods-TextFetcher-SampleApp";
+			sourceTree = "<group>";
+		};
+		AE168867D8A3142C0901963CD9F77C58 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6EB77C027FC8A54354E7501082FC6CCB /* TextSource.swift */,
+				44A45A4A8745C48E63B740A2830761FE /* VersionSource.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AEC706FFB086AFF2FBAEBAC2F63E58C0 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A67508F2455F327D5C1FF6329E8AD /* BundleFile.swift */,
+				D161C9AB8A8BF59701F2C5B063A33D30 /* RemoteFile.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		C3FF9A355C2B11FDE306864EAA49FBF4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60B6F42210441685D46E0298A47F7964 /* TextFetcher */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4698449D539E96F16F1EDE9E47F673B /* Version Stores */ = {
+			isa = PBXGroup;
+			children = (
+				865C8775D3628D716BEF813389C15631 /* LocationSplitVersionStore.swift */,
+				FC61A457DE9DAE745579BF10552D0B4A /* VersionStore.swift */,
+			);
+			path = "Version Stores";
+			sourceTree = "<group>";
+		};
+		CBD43E0947D94E318A0ED1350CFF29ED /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				F940C819049CFF8741C0F5E3E075E607 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C3FF9A355C2B11FDE306864EAA49FBF4 /* Development Pods */,
+				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
+				00323B1BF5FDA4388AA91B2F88930998 /* Products */,
+				7D0A5CBD5B6B4F81DF33CD350CB26224 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2E392D1BAEB3AB32BA2FA5281620F86 /* Resource Interfacing */ = {
+			isa = PBXGroup;
+			children = (
+				1F9FEC0D7E1223A09DACF03CCA0B27BC /* BundledResourceInterfacer.swift */,
+				A213A690DC898330D8F82A7B5CC3CA92 /* CachedResourceInterfacer.swift */,
+				51B8A25512625468DFC5B3ADDB5A7FEA /* RemoteResourceInterfacer.swift */,
+				F0E8903C8D4BAD9A53F447C00AB21509 /* ResourceInterfacing.swift */,
+			);
+			name = "Resource Interfacing";
+			path = "TextFetcher/Resource Interfacing";
+			sourceTree = "<group>";
+		};
+		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBD43E0947D94E318A0ED1350CFF29ED /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4578820AAB89B074240F9649086E2C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E3BAFF29FEF20C975C5919D8B093B1 /* TextFetcher.modulemap */,
+				8681D674356168368A56CD9061397CC0 /* TextFetcher-dummy.m */,
+				2304D9C60509DA372E2BCE2044DC0D13 /* TextFetcher-Info.plist */,
+				2FC6E7CFD164483D97A889DB745A7F40 /* TextFetcher-prefix.pch */,
+				D6E851B3AA17C8689C8E9C11063B8188 /* TextFetcher-umbrella.h */,
+				B6892C34427B6763DB0E524F04F7F191 /* TextFetcher.debug.xcconfig */,
+				B6AFBCF2E12652D9CECE7F1FD05F5DAE /* TextFetcher.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Sample App/Pods/Target Support Files/TextFetcher";
+			sourceTree = "<group>";
+		};
+		EDC47F1403EDC8D4B56BCB2C60389E80 /* Reference */ = {
+			isa = PBXGroup;
+			children = (
+				83334FB08DEF0FB8FE0231FDBC12F34B /* UMLs.swift */,
+			);
+			name = Reference;
+			path = TextFetcher/Reference;
+			sourceTree = "<group>";
+		};
+		F714215F5D2395C8085B379BAA61D594 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				AEC706FFB086AFF2FBAEBAC2F63E58C0 /* Files */,
+				7870CECDE6C5BA4C07973FDFAE9B3388 /* Resource Information */,
+				AE168867D8A3142C0901963CD9F77C58 /* Sources */,
+				C4698449D539E96F16F1EDE9E47F673B /* Version Stores */,
+				2C96C61BB3204DD3BA721CEE3E9742BE /* Versions */,
+			);
+			name = "Data Models";
+			path = "TextFetcher/Data Models";
+			sourceTree = "<group>";
+		};
+		F8512083E409D9DA94579B6A2CA92D30 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				3526F213407390BB22A47985F516F025 /* TextFetcherNotificationManager.swift */,
+			);
+			name = Notifications;
+			path = TextFetcher/Notifications;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28EFF6A439AA512A3BE6D51238CCFBF1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750BD5F43D6E7457787DB81A09A534D0 /* TextFetcher-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0AD6936800C12613D1E7A711EE92E80 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3D3E8623C693D44741D1666E83A9F51 /* Pods-TextFetcher-SampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		28F3E221CBF5DEDA52C8419704B27041 /* TextFetcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89C4FA6D861DB2BAE460AD9F1F579AFB /* Build configuration list for PBXNativeTarget "TextFetcher" */;
+			buildPhases = (
+				28EFF6A439AA512A3BE6D51238CCFBF1 /* Headers */,
+				2B508B7B7C339B3B2DCAACEE55DFF812 /* Sources */,
+				42B94EC6949EBAF65EA9B9224F2E3B7F /* Frameworks */,
+				08B093A371BF091CCF9A7E624A7E31B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFetcher;
+			productName = TextFetcher;
+			productReference = 1DE6347DCF844FE222163F340A83E9BA /* TextFetcher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B777C17C04BC6377EE85F8C707C1B68D /* Pods-TextFetcher-SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BEA734B02BABD08CE5ABC5484986039 /* Build configuration list for PBXNativeTarget "Pods-TextFetcher-SampleApp" */;
+			buildPhases = (
+				F0AD6936800C12613D1E7A711EE92E80 /* Headers */,
+				2F6456036A8695594DDBB4114CAE3BB6 /* Sources */,
+				A1C56612F1D477C3F530795F98526571 /* Frameworks */,
+				5C5A718EDDC06F2AFA52B5D5AE291D28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76FA5B969AB1F125F9DA6A200BA1A5F5 /* PBXTargetDependency */,
+			);
+			name = "Pods-TextFetcher-SampleApp";
+			productName = "Pods-TextFetcher-SampleApp";
+			productReference = 6CB041122704ED50F3EDF07F29154110 /* Pods_TextFetcher_SampleApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1150;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 00323B1BF5FDA4388AA91B2F88930998 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B777C17C04BC6377EE85F8C707C1B68D /* Pods-TextFetcher-SampleApp */,
+				28F3E221CBF5DEDA52C8419704B27041 /* TextFetcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B093A371BF091CCF9A7E624A7E31B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5A718EDDC06F2AFA52B5D5AE291D28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B508B7B7C339B3B2DCAACEE55DFF812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3085B44C03C995ED0D9A24A743FF466B /* BundledResourceInterfacer.swift in Sources */,
+				E9FCE84D91D941F90DA49F9057B61D86 /* BundleFile.swift in Sources */,
+				28AB2A57A2B266B2868E3EBD65BB6253 /* CachedResourceInterfacer.swift in Sources */,
+				C3F3D15BAEF42DB15328715E445E4C8F /* LocationBoundVersion.swift in Sources */,
+				687509367AEEB3AC115265831BA62376 /* LocationSplitVersionStore.swift in Sources */,
+				130FFB39766D5F45B4008563704F0CF0 /* RemoteFile.swift in Sources */,
+				5645A86FEBBFD4EDA80E0B52C2B89CEB /* RemoteResourceInterfacer.swift in Sources */,
+				2DCE7396EA0E4D7998AF2BC3B3D36E8F /* ResourceID.swift in Sources */,
+				F67F3B05D33F00B88C4533DBBE451A35 /* ResourceInterfacing.swift in Sources */,
+				974BCB5FA0EF77EA43952A4F383E20A1 /* ResourceLocation.swift in Sources */,
+				5BEB2116038CD8E8BBECBD31BF584294 /* TextFetcher-dummy.m in Sources */,
+				41165E183C6C1694C11166FD5BBF03C8 /* TextFetcher.swift in Sources */,
+				D5AEAE1EE9A35B280B5ED2CE19178602 /* TextFetcherNotificationManager.swift in Sources */,
+				7864D706DDC1452DE75F4F2063980579 /* TextManager.swift in Sources */,
+				3D7D3195E4969BEA50CC44DC2D3023BA /* TextSource.swift in Sources */,
+				C428596BFCB9CE100E66CEAC96422FA0 /* UMLs.swift in Sources */,
+				8A84E6206302055503B0E77D9FBF2ED9 /* Version.swift in Sources */,
+				1CEE3F4417385DFD5B541BB3C3D332A9 /* VersionManager.swift in Sources */,
+				AAF8FFAF17D2DFA3DB79362306213BD9 /* VersionSource.swift in Sources */,
+				84391EA801ED42CCAA068125A4A40637 /* VersionStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F6456036A8695594DDBB4114CAE3BB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C98B31CB38BF17728D21122605A0227 /* Pods-TextFetcher-SampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76FA5B969AB1F125F9DA6A200BA1A5F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TextFetcher;
+			target = 28F3E221CBF5DEDA52C8419704B27041 /* TextFetcher */;
+			targetProxy = A9BD7FF603C9F8611E4C6EB006E61C27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2704095385F68FE02CCDC4FB82485D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6892C34427B6763DB0E524F04F7F191 /* TextFetcher.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFetcher/TextFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFetcher/TextFetcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/TextFetcher/TextFetcher.modulemap";
+				PRODUCT_MODULE_NAME = TextFetcher;
+				PRODUCT_NAME = TextFetcher;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4752F9F8969B777455CCBA31E03F0EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23CD17A6F3CA21EF60B3A055E20B9B07 /* Pods-TextFetcher-SampleApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7B59B717C8DD103E769D0BB33F494606 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AFBCF2E12652D9CECE7F1FD05F5DAE /* TextFetcher.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/TextFetcher/TextFetcher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TextFetcher/TextFetcher-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/TextFetcher/TextFetcher.modulemap";
+				PRODUCT_MODULE_NAME = TextFetcher;
+				PRODUCT_NAME = TextFetcher;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB2B68637D24C8ADE3445982B6992BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43DF8D38302EFA77BD8FDB497660517 /* Pods-TextFetcher-SampleApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextFetcher-SampleApp/Pods-TextFetcher-SampleApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BEA734B02BABD08CE5ABC5484986039 /* Build configuration list for PBXNativeTarget "Pods-TextFetcher-SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2B68637D24C8ADE3445982B6992BEB /* Debug */,
+				4752F9F8969B777455CCBA31E03F0EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DC6BBF7D2A721A4E91A75A28EEB8E83 /* Debug */,
+				0253CCDEE11BB2E876CF8C6EBDC6E1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89C4FA6D861DB2BAE460AD9F1F579AFB /* Build configuration list for PBXNativeTarget "TextFetcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2704095385F68FE02CCDC4FB82485D4D /* Debug */,
+				7B59B717C8DD103E769D0BB33F494606 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
