@@ -230,7 +230,7 @@ class MyViewController: UIViewController, TextFetcherNotificationReceiver {
 }
 ```
 
-Next, you manage the class's notification registration with TextFetcher via the following meethod:
+Next, you manage the class's notification registration with TextFetcher via the following method:
 
 #### Interface(s)
 
