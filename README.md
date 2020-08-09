@@ -302,4 +302,4 @@ TextFetcher.default.text(for: TextType.text1) { text, version in
 ## License
 
 This project is available under [The MIT License](http://opensource.org/licenses/MIT).  
-Copyright © 2020, [Eric Reedy](mailto:eric@madcapstudios.com). See [LICENSE](LICENSE.md) file.
+Copyright © 2020, [Eric Reedy](mailto:eric@madcapstudios.com). See [LICENSE](LICENSE) file.
