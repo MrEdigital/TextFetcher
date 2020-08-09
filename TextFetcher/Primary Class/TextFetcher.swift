@@ -7,7 +7,8 @@
 import Foundation
 
 ///
-/// This is a convenience protocol which facilitates the parameterization of enum cases or objects which are associated with a TextSource, where a TextSource itself would otherwise be needed.
+/// This is a convenience protocol which facilitates the parameterization of enum cases or objects which are associated with a
+/// TextSource, where a TextSource itself would otherwise be needed.
 ///
 public protocol TextSourceProvider {
     var textSource: TextSource { get }
@@ -15,20 +16,27 @@ public protocol TextSourceProvider {
 
 // MARK: - Specification
 ///
-/// This is the primary outward-facing class of the TextFetcher library.  The primary intended use of this library is the retrieval and local caching of bundled or remote text documents.  You can specify a version source, such that only newer versions are retrieved as needed.
+/// This is the primary outward-facing class of the TextFetcher library.  The primary intended use of this library is the
+/// retrieval and local caching of bundled or remote text documents.  You can specify a version source, such that only newer
+/// versions are retrieved as needed.
 ///
 /// Usage:
 ///
 /// 1. Register any Text Sources you would like fetched and cached via the registerTextSource(_:) method(s).
-/// 2. Request Text Sources as needed via the text(for...) method(s), while specifying whether it should allow remote fetching if needed.  If not, it will immediately return the previously cached version or, if none exists, the bundled version instead.
+/// 2. Request Text Sources as needed via the text(for...) method(s), while specifying whether it should allow remote fetching
+///    if needed.  If not, it will immediately return the previously cached version or, if none exists, the bundled version
+///    instead.
 ///
 /// Optionally:
 ///
-/// 1. (Highly encouraged) Provide a VersionSource to determine which versions are best to fetch and cache, via the setVersionSource(_:) method.
-/// 2. Configure the timeout (how long before falling back to bundled or cached versions, if a remote fetch takes too long) via the setTimeout(to:) method.
+/// 1. (Highly encouraged) Provide a VersionSource to determine which versions are best to fetch and cache, via the
+///    setVersionSource(_:) method.
+/// 2. Configure the timeout (how long before falling back to bundled or cached versions, if a remote fetch takes too long) via
+///    the setTimeout(to:) method.
 /// 3. Configure the Application Bunlde to be used for Bundled texts via the setResourceBundle(to:) method.
 ///
-/// - note:  A default instance of this class is provided via the static accessor "default".  This instance should cover nearly every use case, but where separate cache stores are needed a public initializer is provided as well.
+/// - note:  A default instance of this class is provided via the static accessor "default".  This instance should cover nearly
+///          every use case, but where separate cache stores are needed a public initializer is provided as well.
 ///
 public class TextFetcher {
     
@@ -69,7 +77,8 @@ public class TextFetcher {
 
     #if TESTING
         ///
-        /// A convenience initializer for testing, exposing polymorphic overrides for the various components this class heavily depends upon, as needed.
+        /// A convenience initializer for testing, exposing polymorphic overrides for the various components this class heavily
+        /// depends upon, as needed.
         ///
         init(withSessionID sessionID: String, textManager: TextManager_TextFetcherInterface) {
             self.sessionID = Self.validID(for: sessionID)
@@ -108,7 +117,8 @@ extension TextFetcher {
     }
     
     ///
-    /// When a text is requested, if a fetch is ongoing, this is the duration that will elapse before the last cached (or bundled) text is returned instead.  Defaults to 10 seconds.
+    /// When a text is requested, if a fetch is ongoing, this is the duration that will elapse before the last cached (or
+    /// bundled) text is returned instead.  Defaults to 10 seconds.
     ///
     /// - parameter timeout: The specificed duration to set.
     ///
@@ -117,7 +127,8 @@ extension TextFetcher {
     }
     
     ///
-    /// Allows a user to specify a remote/bundled, or purely remote Version Source which should contain a JSON dictionary specifying the versions of any number of Text Sources.
+    /// Allows a user to specify a remote/bundled, or purely remote Version Source which should contain a JSON dictionary
+    /// specifying the versions of any number of Text Sources.
     ///
     /// The expected JSON format is:
     ///
@@ -135,8 +146,8 @@ extension TextFetcher {
 extension TextFetcher {
     
     ///
-    /// Adds a given object to a list of notification receivers which receive notification broadcasts relevant to TextFetcher behavior.
-    /// See TextFetcherNotificationReceiver for a list of potential notifications.
+    /// Adds a given object to a list of notification receivers which receive notification broadcasts relevant to TextFetcher
+    /// behavior.  See TextFetcherNotificationReceiver for a list of potential notifications.
     ///
     /// - parameter receiver: The receiver to be added.
     ///
@@ -160,7 +171,8 @@ extension TextFetcher {
 extension TextFetcher {
     
     ///
-    /// Allows a user to register a local/remote, purely local, or putely remote Text Source for version-based caching and identifier-based retrieval.
+    /// Allows a user to register a local/remote, purely local, or putely remote Text Source for version-based caching and
+    /// identifier-based retrieval.
     ///
     /// This is a conveinence call which simply forwards to:
     ///
@@ -187,12 +199,16 @@ extension TextFetcher {
 extension TextFetcher {
     
     ///
-    /// Retrieves the latest Text corresponding with the provided TextSource and returns it via closure.  If awaitRemoteFetchIfNeeded is true, and the latest version is found to be remote, the provided completion
-    /// will be delayed until a response is received.  Otherwise it will only retrieve from cache, as bundled texts would have already been cached by this point, and should return without any delay.
+    /// Retrieves the latest Text corresponding with the provided TextSource and returns it via closure.  If
+    /// awaitRemoteFetchIfNeeded is true, and the latest version is found to be remote, the provided completion will be delayed
+    /// until a response is received.  Otherwise it will only retrieve from cache, as bundled texts would have already been
+    /// cached by this point, and should return without any delay.
     ///
     /// - parameter textSourceProvider:       An object containing a TextSource reference.
-    /// - parameter awaitRemoteFetchIfNeeded: Determines whether or not a remote (network) fetch is allowed should the latest version of the text be remotely located.
-    /// - parameter completion:               A closure to be called upon completion, returning the desired text, or nil, should anything fail along the way.
+    /// - parameter awaitRemoteFetchIfNeeded: Determines whether or not a remote (network) fetch is allowed should the latest
+    ///                                       version of the text be remotely located.
+    /// - parameter completion:               A closure to be called upon completion, returning the desired text, or nil,
+    ///                                       should anything fail along the way.
     ///
     /// - note: Completions called from remote fetch responses still return on the main thread.
     ///
@@ -201,12 +217,16 @@ extension TextFetcher {
     }
     
     ///
-    /// Retrieves the latest Text corresponding with the provided TextSource and returns it via closure.  If awaitRemoteFetchIfNeeded is true, and the latest version is found to be remote, the provided completion
-    /// will be delayed until a response is received.  Otherwise it will only retrieve from cache, as bundled texts would have already been cached by this point, and should return without any delay.
+    /// Retrieves the latest Text corresponding with the provided TextSource and returns it via closure.  If
+    /// awaitRemoteFetchIfNeeded is true, and the latest version is found to be remote, the provided completion will be delayed
+    /// until a response is received.  Otherwise it will only retrieve from cache, as bundled texts would have already been
+    /// cached by this point, and should return without any delay.
     ///
     /// - parameter textSource:               A previously-registered TextSource for which you would like its text returned.
-    /// - parameter awaitRemoteFetchIfNeeded: Determines whether or not a remote (network) fetch is allowed should the latest version of the text be remotely located.
-    /// - parameter completion:               A closure to be called upon completion, returning the desired text, or nil, should anything fail along the way.
+    /// - parameter awaitRemoteFetchIfNeeded: Determines whether or not a remote (network) fetch is allowed should the latest
+    ///                                       version of the text be remotely located.
+    /// - parameter completion:               A closure to be called upon completion, returning the desired text, or nil,
+    ///                                       should anything fail along the way.
     ///
     /// - note: Completions called from remote fetch responses still return on the main thread.
     ///
@@ -215,12 +235,17 @@ extension TextFetcher {
     }
     
     ///
-    /// Retrieves the latest Text corresponding with the provided TextSource and returns it via closure.  If awaitRemoteFetchIfNeeded is true, and the latest version is found to be remote, the provided completion
-    /// will be delayed until a response is received.  Otherwise it will only retrieve from cache, as bundled texts would have already been cached by this point, and should return without any delay.
+    /// Retrieves the latest Text corresponding with the provided TextSource and returns it via closure.  If
+    /// awaitRemoteFetchIfNeeded is true, and the latest version is found to be remote, the provided completion will be delayed
+    /// until a response is received.  Otherwise it will only retrieve from cache, as bundled texts would have already been
+    /// cached by this point, and should return without any delay.
     ///
-    /// - parameter resourceID:               The identifier associated with the previously-registered TextSource for which you would like its text returned.
-    /// - parameter awaitRemoteFetchIfNeeded: Determines whether or not a remote fetch (ie: over the internet) is allowed should the latest version of the text be remotely located.
-    /// - parameter completion:               A closure to be called upon completion, returning the desired text, or nil, should anything fail along the way.
+    /// - parameter resourceID:               The identifier associated with the previously-registered TextSource for which you
+    ///                                       would like its text returned.
+    /// - parameter awaitRemoteFetchIfNeeded: Determines whether or not a remote fetch (ie: over the internet) is allowed
+    ///                                       should the latest version of the text be remotely located.
+    /// - parameter completion:               A closure to be called upon completion, returning the desired text, or nil,
+    ///                                       should anything fail along the way.
     ///
     /// - note: Completions called from remote fetch responses still return on the main thread.
     ///
@@ -237,7 +262,8 @@ extension TextFetcher {
 extension TextFetcher: TextManagerDelegate {
     
     ///
-    /// Called by an instance of TextManager to inform its delegate that Text for a given TextSource with a given Version has been retrieved and cached.
+    /// Called by an instance of TextManager to inform its delegate that Text for a given TextSource with a given Version has
+    /// been retrieved and cached.
     ///
     func versionIncreased(to version: Version, for textSource: TextSource) {
         notificationManager.notifyReceivers_versionIncreased(to: version, for: textSource)
