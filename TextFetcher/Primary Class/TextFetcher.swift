@@ -196,7 +196,7 @@ extension TextFetcher {
     ///
     /// - note: Completions called from remote fetch responses still return on the main thread.
     ///
-    public func text(for textSourceProvider: TextSourceProvider, awaitRemoteFetchIfNeeded: Bool, completion: @escaping TextRequestCompletion) {
+    public func text(for textSourceProvider: TextSourceProvider, awaitRemoteFetchIfNeeded: Bool = false, completion: @escaping TextRequestCompletion) {
         text(for: textSourceProvider.textSource.identifier, awaitRemoteFetchIfNeeded: awaitRemoteFetchIfNeeded, completion: completion)
     }
     
@@ -210,7 +210,7 @@ extension TextFetcher {
     ///
     /// - note: Completions called from remote fetch responses still return on the main thread.
     ///
-    public func text(for textSource: TextSource, awaitRemoteFetchIfNeeded: Bool, completion: @escaping TextRequestCompletion) {
+    public func text(for textSource: TextSource, awaitRemoteFetchIfNeeded: Bool = false, completion: @escaping TextRequestCompletion) {
         text(for: textSource.identifier, awaitRemoteFetchIfNeeded: awaitRemoteFetchIfNeeded, completion: completion)
     }
     
@@ -224,7 +224,7 @@ extension TextFetcher {
     ///
     /// - note: Completions called from remote fetch responses still return on the main thread.
     ///
-    public func text(for resourceID: ResourceID, awaitRemoteFetchIfNeeded: Bool, completion: @escaping TextRequestCompletion) {
+    public func text(for resourceID: ResourceID, awaitRemoteFetchIfNeeded: Bool = false, completion: @escaping TextRequestCompletion) {
         if awaitRemoteFetchIfNeeded {
             return textManager.latestText(forResource: resourceID, completion: completion)
         }

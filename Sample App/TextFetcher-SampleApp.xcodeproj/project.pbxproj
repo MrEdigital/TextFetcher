@@ -12,10 +12,10 @@
 		D640233424CCD88A005A258F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D640233324CCD88A005A258F /* ViewController.swift */; };
 		D640233624CCD88E005A258F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D640233524CCD88E005A258F /* Assets.xcassets */; };
 		D640233924CCD88E005A258F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D640233724CCD88E005A258F /* Main.storyboard */; };
+		D640719224DF57B000D14DEC /* Text1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4CB24D5C13200FBCADC /* Text1.txt */; };
 		D6DBC4CC24D5C13200FBCADC /* Text2.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4C824D5C13100FBCADC /* Text2.txt */; };
 		D6DBC4CD24D5C13200FBCADC /* Text3.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4C924D5C13100FBCADC /* Text3.txt */; };
 		D6DBC4CE24D5C13200FBCADC /* TextVersions.json in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4CA24D5C13100FBCADC /* TextVersions.json */; };
-		D6DBC4CF24D5C13200FBCADC /* Text1.txt in Resources */ = {isa = PBXBuildFile; fileRef = D6DBC4CB24D5C13200FBCADC /* Text1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -178,7 +178,7 @@
 				D6DBC4CC24D5C13200FBCADC /* Text2.txt in Resources */,
 				D640233624CCD88E005A258F /* Assets.xcassets in Resources */,
 				D6DBC4CE24D5C13200FBCADC /* TextVersions.json in Resources */,
-				D6DBC4CF24D5C13200FBCADC /* Text1.txt in Resources */,
+				D640719224DF57B000D14DEC /* Text1.txt in Resources */,
 				D640233924CCD88E005A258F /* Main.storyboard in Resources */,
 				D6DBC4CD24D5C13200FBCADC /* Text3.txt in Resources */,
 			);

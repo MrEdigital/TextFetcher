@@ -14,7 +14,7 @@ public struct TextSource: Hashable {
     let bundleFile: BundleFile?
     let remoteFile: RemoteFile?
     
-    public init(identifier: String, bundleFile: BundleFile?, remoteFile: RemoteFile?) {
+    public init(identifier: ResourceID, bundleFile: BundleFile?, remoteFile: RemoteFile?) {
         self.identifier = identifier
         self.bundleFile = bundleFile
         self.remoteFile = remoteFile

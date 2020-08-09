@@ -17,9 +17,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         super.init()
         
         TextFetcher.default.setVersionSource(to: SampleAppTextSource.versionSource)
-        TextFetcher.default.registerTextSource(fromProvider: SampleAppTextSource.text1)
-        TextFetcher.default.registerTextSource(fromProvider: SampleAppTextSource.text2)
-        TextFetcher.default.registerTextSource(fromProvider: SampleAppTextSource.text3)
+        
+        SampleAppTextSource.allCases.forEach {
+            TextFetcher.default.registerTextSource(fromProvider: $0)
+        }
     }
 }
     
