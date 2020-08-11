@@ -38,8 +38,6 @@ extension VersionManager_Broadcasting_Tests {
     
     // MARK: - T - Broadcast Any Newer Versions
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func broadcastAnyNewerVersions()
@@ -80,8 +78,6 @@ extension VersionManager_Broadcasting_Tests {
     }
     
     // MARK: - T - Broadcast If Newer Version
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///

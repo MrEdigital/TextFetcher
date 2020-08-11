@@ -35,8 +35,6 @@ extension VersionStore_Interface_Tests {
     
     // MARK: - T - Version for Resource ID
     ///
-    /// VersionStore Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func version(forResource resourceID: ResourceID) -> Version?
@@ -63,8 +61,6 @@ extension VersionStore_Interface_Tests {
     }
     
     // MARK: - T - For Each Version
-    ///
-    /// VersionStore Unit Test
     ///
     /// Tests the function:
     ///

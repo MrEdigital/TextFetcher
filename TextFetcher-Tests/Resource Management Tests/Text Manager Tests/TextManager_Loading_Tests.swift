@@ -64,8 +64,6 @@ extension TextManager_Loading_Tests {
     
     // MARK: - T - Cached Text with ID
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func cachedText(forResource resourceID: String, completion: @escaping TextFetchCompletion)
@@ -130,8 +128,6 @@ extension TextManager_Loading_Tests {
     }
     
     // MARK: - T - Latest Text with ID
-    ///
-    /// TextManager Unit Test
     ///
     /// Tests the function:
     ///
@@ -323,8 +319,6 @@ extension TextManager_Loading_Tests {
     
     // MARK: - T - Load Bundled Text
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func loadBundledText(forSource textSource: TextSource, completion: @escaping TextFetchCompletion)
@@ -372,8 +366,6 @@ extension TextManager_Loading_Tests {
     
     // MARK: - T - Load Cached Text
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func loadCachedText(forSource textSource: TextSource, completion: @escaping TextFetchCompletion)
@@ -420,8 +412,6 @@ extension TextManager_Loading_Tests {
     }
     
     // MARK: - T - Load Remote Text
-    ///
-    /// TextManager Unit Test
     ///
     /// Tests the function:
     ///

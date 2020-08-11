@@ -39,8 +39,6 @@ extension RemoteResourceInterfacer_Completion_Tests {
 
     // MARK: - T - Register Completions
     ///
-    /// RemoteResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func registerCompletion(_ completion: @escaping TextFetchCompletion, for textSource: TextSource)
@@ -71,8 +69,6 @@ extension RemoteResourceInterfacer_Completion_Tests {
     }
     
     // MARK: - T - Clear Completions
-    ///
-    /// RemoteResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///
@@ -106,8 +102,6 @@ extension RemoteResourceInterfacer_Completion_Tests {
     
     // MARK: - T - Registered Completions
     ///
-    /// RemoteResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func registeredCompletions(for textSource: TextSource) -> [TextFetchCompletion]
@@ -136,8 +130,6 @@ extension RemoteResourceInterfacer_Completion_Tests {
     }
     
     // MARK: - T - Fire Completions
-    ///
-    /// RemoteResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///

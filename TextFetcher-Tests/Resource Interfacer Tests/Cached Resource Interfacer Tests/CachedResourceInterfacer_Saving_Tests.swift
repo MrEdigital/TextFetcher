@@ -32,8 +32,6 @@ extension CachedResourceInterfacer_Saving_Tests {
     
     // MARK: - T - Save To Cache - Versions
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func saveToCache(_ versions: VersionManager.Versions)
@@ -95,8 +93,6 @@ extension CachedResourceInterfacer_Saving_Tests {
     }
     
     // MARK: T - Save To Cache - Text
-    ///
-    /// CachedResourceInterfacer Unit Test
     ///
     /// Tests the function:
     /// 1 - Encodes the provided text as UTF-8, and writes the resulting data into the Cache Directory named using the provided textSource.identifier, or not, should the write fail.

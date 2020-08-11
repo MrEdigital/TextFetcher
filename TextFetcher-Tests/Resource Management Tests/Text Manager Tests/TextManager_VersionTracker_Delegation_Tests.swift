@@ -55,8 +55,6 @@ extension TextManager_VersionManager_Delegation_Tests {
     
     // MARK: - T - Newer Version Found
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func newestVersionLocated(_ version: Version, forID resourceID: String, at location: ResourceLocation)

@@ -32,8 +32,6 @@ extension CachedResourceInterfacer_Clearing_Tests {
     
     // MARK: - T - Clear Cached Versions
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func clearCachedVersions()
@@ -57,8 +55,6 @@ extension CachedResourceInterfacer_Clearing_Tests {
     }
     
     // MARK: - T - Clear Caches
-    ///
-    /// CachedResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///

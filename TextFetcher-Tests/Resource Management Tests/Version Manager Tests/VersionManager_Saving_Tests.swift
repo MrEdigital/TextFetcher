@@ -35,8 +35,6 @@ extension VersionManager_Saving_Tests {
     
     // MARK: - T - Save Current Versions
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func saveCurrentVersions()

@@ -32,8 +32,6 @@ extension TextFetcher_Initialization_Tests {
     
     // MARK: - T - Init
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private init()
@@ -54,8 +52,6 @@ extension TextFetcher_Initialization_Tests {
     }
     
     // MARK: - T - Init with Session ID
-    ///
-    /// TextFetcher Unit Test
     ///
     /// Tests the function:
     ///

@@ -26,8 +26,6 @@ extension TextManager_Initialization_Tests {
     
     // MARK: - T - Init
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     init(withSessionID sessionID: String)

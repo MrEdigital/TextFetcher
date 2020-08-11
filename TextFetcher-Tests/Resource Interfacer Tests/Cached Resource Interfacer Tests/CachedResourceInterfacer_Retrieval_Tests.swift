@@ -32,8 +32,6 @@ extension CachedResourceInterfacer_Retrieval_Tests {
 
     // MARK: - T - Cached Versions
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func cachedVersions() -> VersionManager.Versions?
@@ -99,8 +97,6 @@ extension CachedResourceInterfacer_Retrieval_Tests {
     }
     
     // MARK: - T - Cached Text For Source
-    ///
-    /// CachedResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///

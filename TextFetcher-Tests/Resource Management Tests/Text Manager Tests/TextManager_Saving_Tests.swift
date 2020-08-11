@@ -42,8 +42,6 @@ extension TextManager_Saving_Tests {
     
     // MARK: - T - Cache Text For Source
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func cacheText(_ text: String?, forSource textSource: TextSource, withVersion version: Version?)

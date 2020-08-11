@@ -36,8 +36,6 @@ extension TextManager_Clearing_Tests {
     
     // MARK: - T - Clear Caches
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func clearCaches()

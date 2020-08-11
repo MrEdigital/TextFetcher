@@ -42,8 +42,6 @@ extension TextFetcher_Registration_Tests {
     
     // MARK: - T - Register Text Source
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public func registerTextSource(_ textSource: TextSource)
@@ -80,8 +78,6 @@ extension TextFetcher_Registration_Tests {
     }
     
     // MARK: - T - Register Text Source From Provider
-    ///
-    /// TextManager Unit Test
     ///
     /// Tests the function:
     ///

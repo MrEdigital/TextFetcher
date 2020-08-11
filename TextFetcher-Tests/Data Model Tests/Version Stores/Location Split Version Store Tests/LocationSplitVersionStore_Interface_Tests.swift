@@ -30,8 +30,6 @@ extension LocationSplitVersionStore_Interface_Tests {
     
     // MARK: - T - Version Store For Location
     ///
-    /// Version Unit Test
-    ///
     /// Tests the function:
     ///
     ///      func versionStoreForLocation(_ location: ResourceLocation) -> VersionStore
@@ -84,8 +82,6 @@ extension LocationSplitVersionStore_Interface_Tests {
     
     // MARK: - T - Version For Resource
     ///
-    /// Version Unit Test
-    ///
     /// Tests the function:
     ///
     ///      func version(forResource resourceID: ResourceID, inLocation location: ResourceLocation) -> Version?
@@ -132,8 +128,6 @@ extension LocationSplitVersionStore_Interface_Tests {
     }
     
     // MARK: - T - All Versions For Resource
-    ///
-    /// Version Unit Test
     ///
     /// Tests the function:
     ///
@@ -197,8 +191,6 @@ extension LocationSplitVersionStore_Interface_Tests {
     }
     
     // MARK: - T - For Each Resource
-    ///
-    /// Version Unit Test
     ///
     /// Tests the function:
     ///

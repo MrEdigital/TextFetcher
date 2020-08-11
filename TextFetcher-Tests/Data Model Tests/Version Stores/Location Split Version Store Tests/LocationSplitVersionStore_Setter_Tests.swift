@@ -24,8 +24,6 @@ extension LocationSplitVersionStore_Setter_Tests {
     
     // MARK: - T - Set Versions
     ///
-    /// Version Unit Test
-    ///
     /// Tests the function:
     ///
     ///      mutating func setVersions(_ versionStore: VersionStore?, forLocation location: ResourceLocation)
@@ -117,8 +115,6 @@ extension LocationSplitVersionStore_Setter_Tests {
     }
     
     // MARK: - T - Set Version For Resource
-    ///
-    /// Version Unit Test
     ///
     /// Tests the function:
     ///

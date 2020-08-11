@@ -79,8 +79,6 @@ extension RemoteResourceInterfacer_Fetching_Tests {
     
     // MARK: T - Fetch From Version Source
     ///
-    /// RemoteResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func fetch(fromSource versionSource: VersionSource?, withCompletion completion: @escaping VersionFetchCompletion)
@@ -188,8 +186,6 @@ extension RemoteResourceInterfacer_Fetching_Tests {
     }
     
     // MARK: - T - Fetch From Text Source
-    ///
-    /// RemoteResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///

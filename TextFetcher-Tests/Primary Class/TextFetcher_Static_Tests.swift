@@ -23,8 +23,6 @@ extension TextFetcher_Static_Tests {
     
     // MARK: - T - Valid ID
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private static func validID(for sessionID: String) -> String

@@ -23,8 +23,6 @@ extension Version_Static_Tests {
     
     // MARK: - T - Zero
     ///
-    /// Version Unit Test
-    ///
     /// Tests the static variable:
     ///
     ///      public static let zero: Version

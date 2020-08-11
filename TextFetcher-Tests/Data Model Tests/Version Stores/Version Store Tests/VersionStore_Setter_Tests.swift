@@ -34,8 +34,6 @@ extension VersionStore_Setter_Tests {
     
     // MARK: - T - Set Version For ResourceID
     ///
-    /// VersionStore Unit Test
-    ///
     /// Tests the function:
     ///
     ///     mutating func setVersion(_ version: Version, forResource resourceID: ResourceID)

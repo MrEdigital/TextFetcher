@@ -24,8 +24,6 @@ extension Version_Init_Tests {
     
     // MARK: - T - Init with Major/Minor/Patch
     ///
-    /// Version Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public init(major: UInt, minor: UInt, patch: UInt)
@@ -57,8 +55,6 @@ extension Version_Init_Tests {
     }
     
     // MARK: - T - Init with String
-    ///
-    /// Version Unit Test
     ///
     /// Tests the function:
     ///

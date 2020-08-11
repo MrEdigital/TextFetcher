@@ -24,8 +24,6 @@ extension TextFetcherNotificationReceiver_WeakWrapper_Tests {
     
     // MARK: - T - Initialization
     ///
-    /// TextFetcherNotificationReceiver_WeakWrapper Unit Test
-    ///
     /// Tests the function:
     ///
     ///     fileprivate init(value: TextFetcherNotificationReceiver)
@@ -44,8 +42,6 @@ extension TextFetcherNotificationReceiver_WeakWrapper_Tests {
     }
     
     // MARK: - T - Weak References
-    ///
-    /// TextFetcherNotificationReceiver_WeakWrapper Unit Test
     ///
     /// Tests the value:
     ///

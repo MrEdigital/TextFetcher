@@ -32,8 +32,6 @@ extension RemoteResourceInterfacer_Configuration_Tests {
     
     // MARK: - T - Set Resource Timeout
     ///
-    /// RemoteResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func setResourceTimeout(to timeout: TimeInterval)

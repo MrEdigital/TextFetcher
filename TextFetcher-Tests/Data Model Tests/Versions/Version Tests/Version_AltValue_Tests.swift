@@ -23,8 +23,6 @@ extension Version_AltType_Tests {
     
     // MARK: - T - String Value
     ///
-    /// Version Unit Test
-    ///
     /// Tests the variable:
     ///
     ///     public var stringValue: String

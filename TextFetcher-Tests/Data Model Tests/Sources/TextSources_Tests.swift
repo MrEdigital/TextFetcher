@@ -23,8 +23,6 @@ extension TextSources_Tests {
     
     // MARK: - T - Specified Locations
     ///
-    /// Version Unit Test
-    ///
     /// Tests the variable:
     ///
     ///      var specifiedLocations: [ResourceLocation]

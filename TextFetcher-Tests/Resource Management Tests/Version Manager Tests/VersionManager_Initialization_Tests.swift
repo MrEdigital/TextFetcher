@@ -30,8 +30,6 @@ extension VersionManager_Initialization_Tests {
     
     // MARK: - T - Init with sessionID
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     init(withSessionID sessionID: String)

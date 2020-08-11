@@ -39,8 +39,6 @@ extension VersionStore_Getter_Tests {
     
     // MARK: - T - Count
     ///
-    /// VersionStore Unit Test
-    ///
     /// Tests the getter:
     ///
     ///     var count: Int
@@ -68,8 +66,6 @@ extension VersionStore_Getter_Tests {
     
     // MARK: - T - All Resource IDs
     ///
-    /// VersionStore Unit Test
-    ///
     /// Tests the getter:
     ///
     ///     var allResourceIDs: Set<ResourceID>
@@ -96,8 +92,6 @@ extension VersionStore_Getter_Tests {
     }
     
     // MARK: - T - JSON Encoded Data
-    ///
-    /// VersionStore Unit Test
     ///
     /// Tests the getter:
     ///

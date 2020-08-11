@@ -23,8 +23,6 @@ extension LocationSplitVersionStore_Getter_Tests {
     
     // MARK: - T - All Resource IDs
     ///
-    /// Version Unit Test
-    ///
     /// Tests the getter:
     ///
     ///      private var allResourceIDs: Set<ResourceID

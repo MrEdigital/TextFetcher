@@ -28,8 +28,6 @@ extension TextFetcherNotificationManager_Tests {
     
     // MARK: - T - Add Receiver
     ///
-    /// TextFetcherNotificationManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func addReceiver(_ receiver: TextFetcherNotificationReceiver)
@@ -75,8 +73,6 @@ extension TextFetcherNotificationManager_Tests {
     
     // MARK: - T - Remove Receiver
     ///
-    /// TextFetcherNotificationManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func removeReceiver(_ receiver: TextFetcherNotificationReceiver)
@@ -117,8 +113,6 @@ extension TextFetcherNotificationManager_Tests {
     }
     
     // MARK: - T - Notify Receivers - Version Increased
-    ///
-    /// TextFetcherNotificationManager Unit Test
     ///
     /// Tests the function:
     ///

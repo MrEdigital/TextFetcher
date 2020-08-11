@@ -49,8 +49,6 @@ extension TextFetcher_Retrieval_Tests {
     
     // MARK: - T - Text From Privder
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public func text(for textSourceProvider: TextSourceProvider, awaitRemoteFetchIfNeeded: Bool, completion: @escaping TextRequestCompletion)
@@ -99,8 +97,6 @@ extension TextFetcher_Retrieval_Tests {
     
     // MARK: - T - Text For TextSource
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public func text(for textSource: TextSource, awaitRemoteFetchIfNeeded: Bool, completion: @escaping TextRequestCompletion)
@@ -148,8 +144,6 @@ extension TextFetcher_Retrieval_Tests {
     }
     
     // MARK: - T - Text For Resource
-    ///
-    /// TextFetcher Unit Test
     ///
     /// Tests the function:
     ///

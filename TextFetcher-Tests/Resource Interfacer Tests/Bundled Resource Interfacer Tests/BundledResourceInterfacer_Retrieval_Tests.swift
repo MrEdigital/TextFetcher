@@ -33,8 +33,6 @@ extension BundledResourceInterfacer_Retrieval_Tests {
     
     // MARK: - T - Version For Source
     ///
-    /// BundledResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func versions(forSource versionSource: VersionSource?) -> [String: Version]?
@@ -108,8 +106,6 @@ extension BundledResourceInterfacer_Retrieval_Tests {
     }
     
     // MARK: - T - Text For Source
-    ///
-    /// BundledResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///

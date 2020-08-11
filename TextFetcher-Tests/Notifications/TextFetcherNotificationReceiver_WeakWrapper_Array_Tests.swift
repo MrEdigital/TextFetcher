@@ -24,8 +24,6 @@ extension TextFetcherNotificationReceiver_WeakWrapper_Array_Tests {
     
     // MARK: - T - Purge Empty Wrappers
     ///
-    /// TextFetcherNotificationReceiver_WeakWrapper Array Unit Test
-    ///
     /// Tests the function:
     ///
     ///     mutating func purgeEmptyWrappers()
@@ -57,8 +55,6 @@ extension TextFetcherNotificationReceiver_WeakWrapper_Array_Tests {
     }
     
     // MARK: - T - Receivers
-    ///
-    /// TextFetcherNotificationReceiver_WeakWrapper Array Unit Test
     ///
     /// Tests the function:
     ///

@@ -52,8 +52,6 @@ extension TextManager_Configuration_Tests {
     
     // MARK: - T - Set Delegate
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func setDelegate(to delegate: TextManagerDelegate?)
@@ -73,8 +71,6 @@ extension TextManager_Configuration_Tests {
     }
     
     // MARK: - T - Set Resource Bundle
-    ///
-    /// TextManager Unit Test
     ///
     /// Tests the function:
     ///
@@ -101,8 +97,6 @@ extension TextManager_Configuration_Tests {
     
     // MARK: - T - Set Delegate
     ///
-    /// TextManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func setResourceTimeout(to timeout: TimeInterval)
@@ -122,8 +116,6 @@ extension TextManager_Configuration_Tests {
     }
     
     // MARK: - T - Set Delegate
-    ///
-    /// TextManager Unit Test
     ///
     /// Tests the function:
     ///
@@ -148,8 +140,6 @@ extension TextManager_Configuration_Tests {
     }
     
     // MARK: - T - Set Delegate
-    ///
-    /// TextManager Unit Test
     ///
     /// Tests the function:
     ///

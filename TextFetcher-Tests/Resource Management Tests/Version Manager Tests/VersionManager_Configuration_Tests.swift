@@ -56,8 +56,6 @@ extension VersionManager_Configuration_Tests {
     
     // MARK: - T - Set Delegate
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func setDelegate(to delegate: VersionManagerDelegate?)
@@ -77,8 +75,6 @@ extension VersionManager_Configuration_Tests {
     }
     
     // MARK: - T - Set Version Source
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the VersionManager function:
     ///
@@ -229,8 +225,6 @@ extension VersionManager_Configuration_Tests {
     }
     
     // MARK: - T - Set Resource Bundle
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///

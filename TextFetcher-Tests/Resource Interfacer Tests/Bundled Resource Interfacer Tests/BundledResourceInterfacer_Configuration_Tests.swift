@@ -32,8 +32,6 @@ extension BundledResourceInterfacer_Configuration_Tests {
     
     // MARK: - T - Set Bundle
     ///
-    /// BundledResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func setBundle(to bundle: Bundle)

@@ -27,8 +27,6 @@ extension LocationBoundVersion_ArrayGetter_Tests {
     
     // MARK: - T - By Location - Asc
     ///
-    /// Version Unit Test
-    ///
     /// Tests the getter:
     ///
     ///      var byLocation_ascending: [LocationBoundVersion]
@@ -95,8 +93,6 @@ extension LocationBoundVersion_ArrayGetter_Tests {
     
     // MARK: - T - By Location - Desc
     ///
-    /// Version Unit Test
-    ///
     /// Tests the getter:
     ///
     ///      var byLocation_descending: [LocationBoundVersion]
@@ -161,8 +157,6 @@ extension LocationBoundVersion_ArrayGetter_Tests {
     }
     
     // MARK: - T - By Version - Asc
-    ///
-    /// Version Unit Test
     ///
     /// Tests the getter:
     ///
@@ -229,8 +223,6 @@ extension LocationBoundVersion_ArrayGetter_Tests {
     
     // MARK: - T - By Version - Desc
     ///
-    /// Version Unit Test
-    ///
     /// Tests the getter:
     ///
     ///      var byVersion_descending: [LocationBoundVersion]
@@ -295,8 +287,6 @@ extension LocationBoundVersion_ArrayGetter_Tests {
     }
     
     // MARK: - T - Removing Stale Values
-    ///
-    /// Version Unit Test
     ///
     /// Tests the getter:
     ///

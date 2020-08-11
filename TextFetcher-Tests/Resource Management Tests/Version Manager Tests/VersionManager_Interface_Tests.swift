@@ -44,8 +44,6 @@ extension VersionManager_Interface_Tests {
     
     // MARK: - T - Cached Version For Resource
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func cachedVersion(forResource resourceID: ResourceID) -> Version
@@ -79,8 +77,6 @@ extension VersionManager_Interface_Tests {
     }
     
     // MARK: - T - Location of Latest Version
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///
@@ -142,8 +138,6 @@ extension VersionManager_Interface_Tests {
     
     // MARK: - T - Resource Cached
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func resourceCached(forID resourceID: ResourceID, withVersion version: Version)
@@ -181,8 +175,6 @@ extension VersionManager_Interface_Tests {
     }
     
     // MARK: - T - Resource Registered
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///
@@ -253,8 +245,6 @@ extension VersionManager_Interface_Tests {
     }
     
     // MARK: - T - Clear Cache
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///

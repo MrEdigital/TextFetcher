@@ -43,8 +43,6 @@ extension TextFetcher_Configuration_Tests {
     
     // MARK: - T - Set Resource Bundle
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public func setResourceBundle(to bundle: Bundle)
@@ -75,8 +73,6 @@ extension TextFetcher_Configuration_Tests {
     
     // MARK: - T - Set Resource Timeout
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public func setResourceTimeout(to timeout: TimeInterval)
@@ -106,8 +102,6 @@ extension TextFetcher_Configuration_Tests {
     }
     
     // MARK: - T - Set Version Source
-    ///
-    /// TextFetcher Unit Test
     ///
     /// Tests the function:
     ///

@@ -32,8 +32,6 @@ extension TextFetcher_Notification_Tests {
     
     // MARK: - T - Add Notification Receiver
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     public func addNotificationReceiver(_ notificationReceiver: TextFetcherNotificationReceiver)
@@ -57,8 +55,6 @@ extension TextFetcher_Notification_Tests {
     }
     
     // MARK: - T - Remove Notification Receiver
-    ///
-    /// TextFetcher Unit Test
     ///
     /// Tests the function:
     ///

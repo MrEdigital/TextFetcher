@@ -34,8 +34,6 @@ extension CachedResourceInterfacer_Static_Tests {
     
     // MARK: - T - Caches URL
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the static variable:
     ///
     ///      static let cachesURL: URL?
@@ -56,8 +54,6 @@ extension CachedResourceInterfacer_Static_Tests {
     
     // MARK: - T - Directory URL
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the static variable:
     ///
     ///      static func directoryURL(forSession sessionID: String) -> URL?
@@ -76,8 +72,6 @@ extension CachedResourceInterfacer_Static_Tests {
     
     // MARK: - T - Versions URL
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the static variable:
     ///
     ///      static func versionsURL(forSession sessionID: String) -> URL?
@@ -95,8 +89,6 @@ extension CachedResourceInterfacer_Static_Tests {
     }
     
     // MARK: - T - File URL
-    ///
-    /// CachedResourceInterfacer Unit Test
     ///
     /// Tests the static variable:
     ///

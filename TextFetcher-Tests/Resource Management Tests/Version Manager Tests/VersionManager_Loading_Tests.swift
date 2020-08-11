@@ -72,8 +72,6 @@ extension VersionManager_Loading_Tests {
     
     // MARK: - T - Load Cached Versions
     ///
-    /// VersionManager Unit Test
-    ///
     /// Tests the function:
     ///
     ///     private func loadCachedVersions()
@@ -125,8 +123,6 @@ extension VersionManager_Loading_Tests {
     }
     
     // MARK: - T - Load Bundle Values
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///
@@ -196,8 +192,6 @@ extension VersionManager_Loading_Tests {
     }
     
     // MARK: - T - Fetch Remote Values
-    ///
-    /// VersionManager Unit Test
     ///
     /// Tests the function:
     ///

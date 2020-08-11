@@ -25,8 +25,6 @@ extension TextFetcher_TextManager_Delegation_Tests {
     
     // MARK: - T - Version Increased To
     ///
-    /// TextFetcher Unit Test
-    ///
     /// Tests the function:
     ///
     ///     func versionIncreased(to version: Version, for textSource: TextSource)
@@ -87,6 +85,8 @@ extension TextFetcher_TextManager_Delegation_Tests {
         
     }
 }
+
+// MARK: - Mock Classes
 
 extension TextFetcher_TextManager_Delegation_Tests {
     

@@ -32,8 +32,6 @@ extension CachedResourceInterfacer_Setup_Tests {
 
     // MARK: - T - Init
     ///
-    /// CachedResourceInterfacer Unit Test
-    ///
     /// Tests the function:
     ///
     ///     init(withSessionID sessionID: String)
@@ -54,8 +52,6 @@ extension CachedResourceInterfacer_Setup_Tests {
     }
     
     // MARK: - T - Create Local Directory If Needed
-    ///
-    /// CachedResourceInterfacer Unit Test
     ///
     /// Tests the function:
     ///

@@ -28,8 +28,6 @@ extension Version_Comparitor_Tests {
     
     // MARK: - T - Is Equal
     ///
-    /// Version Unit Test
-    ///
     /// Tests the functions:
     ///
     ///     static func ==(_ lhs: Version, _ rhs: Version) -> Bool
@@ -87,8 +85,6 @@ extension Version_Comparitor_Tests {
     
     // MARK: - T - Is Not Equal
     ///
-    /// Version Unit Test
-    ///
     /// Tests the functions:
     ///
     ///     static func !=(_ lhs: Version, _ rhs: Version) -> Bool
@@ -145,8 +141,6 @@ extension Version_Comparitor_Tests {
     }
     
     // MARK: - T - Is Greater Than
-    ///
-    /// Version Unit Test
     ///
     /// Tests the functions:
     ///
@@ -209,8 +203,6 @@ extension Version_Comparitor_Tests {
     
     // MARK: - T - Is Less Than
     ///
-    /// Version Unit Test
-    ///
     /// Tests the functions:
     ///
     ///     static func <(_ lhs: Version, _ rhs: Version) -> Bool
@@ -268,8 +260,6 @@ extension Version_Comparitor_Tests {
     
     // MARK: - T - Is Greater Than Or Equal
     ///
-    /// Version Unit Test
-    ///
     /// Tests the functions:
     ///
     ///     static func >=(_ lhs: Version, _ rhs: Version) -> Bool
@@ -326,8 +316,6 @@ extension Version_Comparitor_Tests {
     }
     
     // MARK: - T - Is Less Than Or Equal
-    ///
-    /// Version Unit Test
     ///
     /// Tests the functions:
     ///

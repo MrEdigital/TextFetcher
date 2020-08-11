@@ -24,8 +24,6 @@ extension VersionStore_Initialization_Tests {
     
     // MARK: - T - Init with Data
     ///
-    /// VersionStore Unit Test
-    ///
     /// Tests the function:
     ///
     ///     init?(withData data: Data?)
@@ -64,8 +62,6 @@ extension VersionStore_Initialization_Tests {
     }
     
     // MARK: - T - Init with String Versions
-    ///
-    /// VersionStore Unit Test
     ///
     /// Tests the function:
     ///
